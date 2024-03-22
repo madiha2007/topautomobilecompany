@@ -1,0 +1,198 @@
+body{
+    Padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: border-box;
+    text-align: center;
+    font-style: new romman;
+    background-image: url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+.navbar {
+    height: 40px;
+    width: 100% ;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+ 
+}
+div{
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#Home:hover{
+    border:  1px solid white;
+    color: rgb(216, 52, 96);
+}
+#Contact:hover{
+    border: 1px solid white;
+    color: rgb(216, 52, 96);
+}
+#News:hover{
+    border: 1px solid white;
+    color: rgb(216, 52, 96);
+}
+#Popular:hover{
+    border: 1px solid white;
+    color: rgb(216, 52, 96);
+}
+#about:hover{
+    border: 1px solid white;
+    color: rgb(216, 52, 96);
+}
+a{
+    display: flex;
+    margin-right: 70px;
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+#models{
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    float: inline-start;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 100px;
+   
+    padding: 70px;
+}
+#models:hover{
+    filter: white(1);
+    transform: scale(1.1);
+}
+footer{
+    clear: both;
+    text-align: center;
+   color: white;
+}
+#Made{
+    color: white;
+}
+#photo{
+    background-image: url("car_1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+    filter: blur(3px) ;
+}
+.banner-text{
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 170px;
+    padding: 20px;
+    margin-left: 50px;
+    padding: 40px 10px;
+    border-left: 5px solid crimson;
+
+}
+.banner-text h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.1em;
+    letter-spacing: 5px;
+    transform: translateX(-120%);
+    animation: animate 2s ease-in-out forwards;
+}
+@keyframes animate{
+    100%{
+        transform: translateX(0);
+    }
+}
+span{
+    animation: colors 4s ease infinite;
+}
+@keyframes colors{
+    0%{
+        color: skyblue;
+    }
+    25%{
+        color: crimson;
+    }
+    50%{
+        color: yellow;
+    }
+    75%{
+        color: tomato;
+    }
+    100%{
+        color: skyblue;
+    }
+}
+#para{
+    margin-left: 10px;
+    border-spacing: 20px;
+    padding: 20px;
+}
+@media screen and (max-width: 1090px) and (min-width: 100px) {
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 10px;
+    }
+    div{
+        background-image: 600px;
+        margin-top: 0px;
+        width: 100%;
+        height: min-content;
+        margin-left: 0px;
+        margin-right: 2px;
+    }
+    #photo{
+        margin-top: 20px;
+        height: 200px;
+        width: 100%;
+        background-size: contain;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .banner-text{
+        font-size: 10px;
+        top: 80px;
+        margin: 5px;
+        padding: 0px;
+    }
+    .banner-text h1{
+        color: white;
+    }
+    span{
+        font-size: 20px ;
+    }
+    .navbar{
+        font-size: 10px;
+        margin-right: 0;
+    }
+    #models{
+        margin-left: 0px;
+        padding: 0px;
+        margin-right: 0;
+        margin-top: 40px;
+        height: 200px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #models img{
+        height: 100px;
+        width: 100px;
+    }
+    a{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
